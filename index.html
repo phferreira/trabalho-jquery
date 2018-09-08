@@ -3,18 +3,53 @@
 
   <head>
     <meta charset="utf-8"/>
-    <title>Jogo da Velha</title>
+    <title>Trabalho Paulo H. Ferreira</title>
+
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
-    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/jquery.js"></script>
+
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="js/jquery.flexslider.js"></script>
+
   </head>
 
   <body>
-    <table cellspacing="0" cellpadding="0" id="t1">
-      <tr><td>X</td><td>O</td><td>X</td></tr>
-      <tr><td>O</td><td>X</td><td>O</td></tr>
-      <tr><td>X</td><td>O</td><td>X</td></tr>
-    </table>
-  </body>
-</html>
+    <header>
+      <div class='topo'><h1> TRABALHO JQUERY </h1></div>
+      <div class='menu'>
+        <li class='menu-item'><h2><a href="#">Página Inicial</a></h2></li>
+        <li class='menu-item'><h2 class='menu-item'><a href="#">Produtos</a></h2>
+          <ul class='sub-item'>
+            <li class='item-sub-item'><a href="#">Perecível</a></li>
+            <li class='item-sub-item'><a href="#">Não Perecível</a></li>
+          </ul>
+        </li>
+        <li class='menu-item'><h2><a href="#">Cadatros</a></h2></li>
+        <li class='menu-item'><h2><a href="#">Quem somos</a></h2></li>
+        <li class='menu-item'><h2><a href="#">Contato</a></h2></li>
+      </div>
+    </header>
 
+    <main>
+
+      <div class='banner'>
+        <div class="flexslider" >
+            <ul class="slides">
+                <li><img src="imagens/anuncie.png" alt=""></li>
+                <li><img src="imagens/anuncie1.jpg" alt=""></li>
+                <li><img src="imagens/anuncie2.jpg" alt=""></li>
+            </ul>
+        </div>
+      </div>
+
+      <div class='conteudo'>conteudo</div>
+    </main>
+
+    <footer>
+      <button type='button' class='inicio' id='topo'>Inicio</button>
+    </footer>
+  </body>
+
+</html>
