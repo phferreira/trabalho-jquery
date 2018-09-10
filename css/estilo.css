@@ -1,3 +1,4 @@
+
 body {
   margin: 5px 5px 5px 5px;
 }
@@ -32,21 +33,20 @@ a{
   margin-left: -50px;
   background-color: green;
   display:block;
-  padding:15px 15px 15px 15px ;
+  padding:15px;
 }
 
 .banner{
   background: yellow;
   color: white;
   height: 200px;
-  margin: 5px auto;
 }
 
 .conteudo{
   background: blue;
   color: white;
-  height: 280px;
-  margin: 5px auto;
+  height: 100%;
+  text-align: center;
 }
 
 footer{
@@ -65,7 +65,20 @@ footer{
   text-align: center;
 }
 
-img{
+.imagem-anuncio{
   width: 400px;
   height: 200px;
+}
+
+.contato{
+  padding: 1px 0px;
+}
+
+.galeria{
+  display: inline-block;
+}
+
+.imagem-galeria{
+  width: 60px;
+  height: 60px;
 }

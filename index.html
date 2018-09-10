@@ -18,6 +18,7 @@
   <body>
     <header>
       <div class='topo'><h1> TRABALHO JQUERY </h1></div>
+
       <div class='menu'>
         <li class='menu-item'><h2><a href="#">Página Inicial</a></h2></li>
         <li class='menu-item'><h2 class='menu-item'><a href="#">Produtos</a></h2>
@@ -33,18 +34,47 @@
     </header>
 
     <main>
-
       <div class='banner'>
         <div class="flexslider" >
             <ul class="slides">
-                <li><img src="imagens/anuncie.png" alt=""></li>
-                <li><img src="imagens/anuncie1.jpg" alt=""></li>
-                <li><img src="imagens/anuncie2.jpg" alt=""></li>
+                <li><img class='imagem-anuncio' src="imagens/anuncie.png" alt=""></li>
+                <li><img class='imagem-anuncio' src="imagens/anuncie1.jpg" alt=""></li>
+                <li><img class='imagem-anuncio' src="imagens/anuncie2.jpg" alt=""></li>
             </ul>
         </div>
       </div>
 
-      <div class='conteudo'>conteudo</div>
+      <div class='conteudo'>
+
+        <div class='contato'>
+          <h2>Contato</h2>
+          <form method="post" action="">
+            Nome: <input type="text" id="nome" /><br />
+            E-mail(*): <input type="text" id="email" required /><br />
+            Telefone(*): <input type="text" id="telefone" required /><br />
+            Data Nasc: <input type="text" id="datanasc" /><br />
+            <div>
+              <select id="estados">
+                <option value=""></option>
+              </select>
+              <select id="cidades"></select>
+            </div>
+            <button type="submit">Validar</button>
+          </form>
+        </div>
+
+        <div class='fotos'>
+          <h2>Galeria de fotos</h2>
+            <ul>
+              <li class='galeria'><a href="imagens/fullscreen/2.jpg"><img class='imagem-galeria' src="imagens/thumbnails/t_2.jpg"/></a></li>
+              <li class='galeria'><a href="imagens/fullscreen/3.jpg"><img class='imagem-galeria' src="imagens/thumbnails/t_3.jpg"/></a></li>
+              <li class='galeria'><a href="imagens/fullscreen/4.jpg"><img class='imagem-galeria' src="imagens/thumbnails/t_4.jpg"/></a></li>
+              <li class='galeria'><a href="imagens/fullscreen/5.jpg"><img class='imagem-galeria' src="imagens/thumbnails/t_5.jpg"/></a></li>
+              <li class='galeria'><a href="imagens/fullscreen/6.jpg"><img class='imagem-galeria' src="imagens/thumbnails/t_2.jpg"/></a></li>
+            </ul>
+        </div>
+
+      </div>
     </main>
 
     <footer>
